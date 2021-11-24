@@ -56,50 +56,6 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200});
 
-// const form = document.querySelector('.contact__form');
-
-// //function to send the message when click on button send
-// function sendMsg(e) {
-//     e.preventDefault();
-//      const name = document.querySelector('.contact__input'),
-//            email = document.querySelector('.contact__input'),
-//            msg = document.querySelector('.contact__input'),
-
-// //function Send Email...
-// function send(event) {
-//     event.preventDefault();
-//     Email.send({
-//     name:document.getElementById('name').value,
-//     SecureToken : "3707dcb3-a954-416b-879a-9bd0be523b91",
-//     Host: "smtp.gmail.com",
-//     UserName: "anarbekovaaijamal95@gmail.com",
-//     Password: "18658867451aaa",
-//     To : 'anarbekovaaijamal95@gmail.com',
-//     From : document.getElementById('email').value,
-//     Subject : document.getElementById('subject').value,
-//     Body : document.getElementById('message').value
-// }).then(function(responce) {
-//     if (responce == 'OK') {
-//         alert("Your message has been sent succeessfully");
-//     } else {
-//         alert(response.statusText);
-//         throw new Error("Error:" + responce);
-//     }
-// });
-// }
-
-// }
-
-// //add the event Listener submit
-// form.addEventListener('submit', sendMsg);
-
-//2й вариант
-// document.querySelector("submit").onclick = function(){
-//     alert("Thank you!");
-// }
-// function alerted(){
-//     alert("Thank you!");
-//   }
 
 document.addEventListener('DOMContentLoaded', function () {
    const form = document.getElementById('form');
